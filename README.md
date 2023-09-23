@@ -235,7 +235,7 @@ MIT X-PRO FIRST WEBSITE
           <div class="text-bg-info p-1"></div>
 
 <!--Navbar-->
-  <div class=" "container-fluid>
+  <div class= "container-fluid">
     <nav class="navbar navbar-expand-lg bg-cover header1 ">
       <a class="navbar-brand-centered" href="#"><img src ="/nageshimg7.png" alt= "nagesh" width = "200"/></a>
 
