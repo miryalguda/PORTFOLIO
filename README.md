@@ -352,15 +352,15 @@ MIT X-PRO FIRST WEBSITE
   <div class="carousel-inner">
 
     <div class="carousel-item active">
-      <img src="eye-sm.jpg" class="d-block w-80 h-60" alt="eye">
+      <img src="/eye-sm.jpg" class="d-block w-80 h-60" alt="eye">
     </div>
     
     <div class="carousel-item">
-      <img src="pacmen-sm.jpg" class="d-block w-80 h-60" alt="pac men">
+      <img src="/pacmen-sm.jpg" class="d-block w-80 h-60" alt="pac men">
     </div>
 
     <div class="carousel-item">
-      <img src="mapdirection-sm.jpg" class="d-block w-80 h-60" alt="mapdirection">
+      <img src="/mapdirection-sm.jpg" class="d-block w-80 h-60" alt="mapdirection">
     </div>
   </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -456,7 +456,7 @@ MIT X-PRO FIRST WEBSITE
   <p id = "Contact Me"></p>
 
   <div class = "has-bg-img">
-    <div class=" bg-img bg-cover p-5 mt-5 mb-5" style="background-image: url('forest960.jpg'); height : auto; width : 100%; color: white; border-radius: 20px;">
+    <div class=" bg-img bg-cover p-5 mt-5 mb-5" style="background-image: url('/forest960.jpg'); height : auto; width : 100%; color: white; border-radius: 20px;">
       <div class = " p-5 mb-5 mt-5 text-center ">
         <h1 >Contact Me</h1>
         <div class= "contactbody p-5 mt-5 mb-5">
