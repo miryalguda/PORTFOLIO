@@ -252,12 +252,6 @@ MIT X-PRO FIRST WEBSITE
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="/portfolio.html">
-              <button type="button" class="btn  btn-lg navbtn-css">Bootstrap</button>
-            </a>
-          </li>
-
-          <li class="nav-item">
             <a class="nav-link" href="#YOUTUBE VIDEO">
               <button type="button" class="btn  btn-lg navbtn-css">YOUTUBE</button>
             </a>
