@@ -1,6 +1,6 @@
 # PORTFOLIO
 MIT X-PRO FIRST WEBSITE
-<!doctype html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
