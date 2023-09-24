@@ -218,8 +218,51 @@ MIT X-PRO FIRST WEBSITE
   
 }
 
-
 /*css animation -css end*/
+
+/* sliding background start*/
+tml {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg10 {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(120deg, rgb(33, 85, 163) 50%, rgb(160, 10, 60) 50%);
+    bottom:0;
+    left:-25%;
+    opacity:.5;
+    position:fixed;
+    right:-25%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg11 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg12 {
+    animation-duration:5s;
+  }
+  
+
+
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-50%);
+    }
+    100% {
+      transform:translateX(100%);
+    }
+  }
+
+/* sliding background end*/  
 </style>
  
     <title>Nageshwer  Blog</title>
@@ -383,6 +426,12 @@ MIT X-PRO FIRST WEBSITE
 
 <!-- youtube video -->
 <div class="container p-5 mt-5 mb-5 text-center">
+  <!--sliding background start-->
+  <div class="bg10"></div>
+  <div class="bg10 bg11"></div>
+  <div class="bg10 bg12"></div>
+<!--sliding background end-->
+  
   <h1 >YOUTUBE VIDEO</h1>
     <div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/bNSaTvrHSZI?si=mV2vAGeJhUuwqzt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
