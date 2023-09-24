@@ -237,7 +237,7 @@ MIT X-PRO FIRST WEBSITE
 <!--Navbar-->
   <div class= "container-fluid">
     <nav class="navbar navbar-expand-lg bg-cover header1 ">
-      <a class="navbar-brand-centered" href="#"><img src ="/nageshimg7.png" alt= "nagesh" width = "100"/></a>
+      <a class="navbar-brand-centered" href="#"><img src ="/nageshimg7.png" alt= "nagesh" width = "400"/></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
