@@ -1,7 +1,7 @@
 # PORTFOLIO
 MIT X-PRO FIRST WEBSITE
 
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -89,10 +89,10 @@ MIT X-PRO FIRST WEBSITE
 <!-- navbar  end -->
 <!-- multiple dropdown -->
 <div class="container">
-    <div class="dropdown dropstart">
+    <div class="dropdown">
       <button class="btn bg-danger project rounded-circle w-40 h-20  p-5 mt-5 mb-5 fs-1 dropdown-toggle" type="button" data-toggle="dropdown">Projects
       </button>
-      <ul class="dropdown-menu dropstart">
+      <ul class="dropdown-menu ">
 
         <li class = "dropdown-submenu dropstart"><a class = "test" tabindex="-1" href="#">EYE EXERCISE<span class="caret"></span></a>
             <ul class="dropdown-menu">
