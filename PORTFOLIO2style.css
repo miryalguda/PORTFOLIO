@@ -1,0 +1,245 @@
+.color-css {
+    background-color: rgb(5, 71, 5);
+  }
+  .header1 {
+    width: 100%;
+    height: auto;
+    background-image:  linear-gradient(to right, rgb(57, 135, 204), rgba(16, 16, 17, 0));
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:
+    bottom right,
+    left,
+    right;
+
+  }
+  .project {
+    border-radius: 50%;
+  }
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+  .navbar-css {
+    background: url ("./images/NY city.jpg")
+  }
+  .ul-css {
+    padding: 10px;
+    background: rgb(12, 1, 1);
+    border: 8px solid rgb(83, 81, 81)
+  }
+  .ul-css1 {
+    padding: 10px;
+    background: rgb(95, 200, 8);
+    border: 8px solid rgb(83, 81, 81)
+  }
+  
+  .navbtn-css {
+    background: rgb(109, 10, 86);
+    border: 2px solid rgb(158, 154, 154);
+    color: rgb(181, 246, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+  }
+  .aboutbtn {
+    background: rgb(59, 105, 41);
+    border: 2px solid rgb(125, 177, 91);
+    color: rgb(241, 241, 192);
+    font-family: sans-serif;
+  }
+  .aboutbtn:hover{
+    color: white;
+  }
+  .aboutcont {
+    background:rgb(227, 165, 233);
+    border-radius: 0 50px 0 50px;
+  }
+  .aboutbody {
+    background:rgb(78, 67, 2);
+    border-radius: 0 50px 0 50px;
+    color:  rgb(245, 220, 220);
+  }
+
+  .heading1 {
+    font-size: 50px;
+    text-align: right;
+    text-shadow: 1px 1px 3px black, 2px 2px 5px darkblue;
+    color: rgb(7, 7, 151);
+  }
+  .heading2 { 
+    font-size: 30px;
+    text-align: right;
+    color:rgb(236, 74, 201);
+  }
+  .contactbody {
+    background: rgb(238, 176, 176);
+    border: 2px solid rgb(12, 1, 1);
+    border-radius: 50px 25px;
+    color: rgb(7, 7, 151);
+
+  }
+
+  
+/*css animation -css*/
+ 
+.ball1 {
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  position: relative;
+  animation: move1;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count:infinite;
+}
+ 
+.ball2 {
+  background-color: rgb(153, 51, 110);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: move2;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count:infinite;
+}
+.ball3 {
+  background-color: rgb(92, 114, 45);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: move3;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count:infinite;
+  transform: rotate(-45deg);
+}
+
+.ball4 {
+   
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color:rgb(6, 20, 91);
+  position: relative;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes test {
+  0%   {background-color:rgb(6, 20, 91); left:0px; top:0px;}
+  12.5%  {background-color:rgb(6, 20, 91); left:800px; top:0px;}
+  25%  {background-color:rgb(6, 20, 91); left:800px; top:250px;}
+  37.5%  {background-color:rgb(6, 20, 91); left:0px; top:250px;}
+  50%  {background-color:rgb(6, 20, 91); left:0px; top:500px;}
+  62.5% {background-color:rgb(6, 20, 91); left:800px; top:500px;}
+  75%   {background-color:rgb(6, 20, 91); left:800px; top:250px;}
+  87.5%  {background-color:rgb(6, 20, 91); left:0px; top: 250px;}
+  100%  {background-color:rgb(6, 20, 91); left:0px; top:0px;}
+  
+}
+
+#add {
+    animation-composition: add;
+}
+
+@keyframes move1 {
+  0% {
+    transform: translateY(0px);left:0px; top: 0px;
+  }
+  50% {
+    transform: translateY(500px);
+    background-color:rgb(14, 137, 123);
+  }
+  100% {
+    transform: translateY(0px);left:0px; top: 0px;
+    background-color:rgb(151, 144, 7);
+  }
+  }
+
+@keyframes move2 {
+  0% {
+    transform: translateX(0px);left:0px; top: 50px;
+    background-color:rgb(196, 91, 214);
+  }
+ 
+  100% {
+    transform: translateX(750px);
+    background-color:rgb(132, 234, 129);
+  }
+}
+@keyframes move3 {
+  0% {
+    transform: translateX(0px);left:0px; top: 0px;
+    background-color:rgb(230, 31, 107);
+  }
+  
+  100% {
+  transform: translateY(640px) ;
+  background-color:rgb(24, 174, 215);
+  }
+}
+.ball_css {
+  text-align : center;
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 200px;
+  
+}
+
+/*css animation -css end*/
+
+/* sliding background start*/
+ html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg10 {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(120deg, rgb(33, 85, 163) 50%, rgb(160, 10, 60) 50%);
+    bottom:0;
+    left:-25%;
+    opacity:.5;
+    position:fixed;
+    right:-25%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg11 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg12 {
+    animation-duration:5s;
+  }
+  
+
+
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-50%);
+    }
+    100% {
+      transform:translateX(100%);
+    }
+  }
+
+/* sliding background end*/  
