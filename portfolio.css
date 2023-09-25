@@ -197,3 +197,47 @@
   margin: 200px;
   
 }
+
+/* sliding background start*/
+ html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg10 {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(120deg, rgb(33, 85, 163) 50%, rgb(160, 10, 60) 50%);
+    bottom:0;
+    left:-25%;
+    opacity:.5;
+    position:fixed;
+    right:-25%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg11 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg12 {
+    animation-duration:5s;
+  }
+  
+
+
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-50%);
+    }
+    100% {
+      transform:translateX(100%);
+    }
+  }
+
+/* sliding background end*/  
