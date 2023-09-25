@@ -88,7 +88,7 @@ MIT X-PRO FIRST WEBSITE
     
 <!-- navbar  end -->
 <!-- multiple dropdown -->
- <div class= "container-fluid">
+ <div class= "container">
     <div class="dropdown">
       <button class="btn bg-danger project rounded-circle w-40 h-20  p-5 mt-5 mb-5 fs-1 dropdown-toggle" type="button" data-toggle="dropdown">Projects
       </button>
