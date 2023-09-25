@@ -221,7 +221,7 @@ MIT X-PRO FIRST WEBSITE
 /*css animation -css end*/
 
 /* sliding background start*/
-tml {
+ html {
     height:100%;
   }
   
