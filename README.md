@@ -88,53 +88,7 @@ MIT X-PRO FIRST WEBSITE
     
 <!-- navbar  end -->
 <!-- multiple dropdown -->
-<div class="container">
-    <div class="dropdown">
-      <button class="btn bg-danger project rounded-circle w-40 h-20  p-5 mt-5 mb-5 fs-1 dropdown-toggle" type="button" data-toggle="dropdown">Projects
-      </button>
-      <ul class="dropdown-menu">
 
-        <li class = "dropdown-submenu"><a class = "test" tabindex="-1" href="#">EYE EXERCISE<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a tabindex="-1" href="https://github.com/miryalguda/EYE-EXERCISE/blob/main/eye.css">Eye Exercise CSS</a></li>
-                <li><a tabindex="-1" href="https://github.com/miryalguda/EYE-EXERCISE/blob/main/eye.html">Eye Exercise HTML</a></li>
-                <li><a tabindex="-1" href="https://github.com/miryalguda/EYE-EXERCISE/blob/main/eye1.js">Eye Exercise JS</a></li>            
-            </ul>         
-        </li>
-
-        <li class = "dropdown-submenu"><a class = "test" tabindex="-1" href="#" >PAC MEN<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a tabindex="-1" href="https://github.com/miryalguda/PACMEN">PAC MEN CSS</a></li>
-                <li><a tabindex="-1" href="https://github.com/miryalguda/PACMEN/blob/main/pacmen.html">PAC MEN HTML</a></li>
-                <li><a tabindex="-1" href="https://github.com/miryalguda/PACMEN/blob/main/pacmen.js">PAC MEN JS</a></li>            
-            </ul>       
-        </li>
-
-        <li class = "dropdown-submenu"><a class = "test" tabindex="-1" href="#" >MAP DIRECTION<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a tabindex="-1" href="https://github.com/miryalguda/MAP-DIRECTION/blob/main/mapdirection2.css">MAP DIRECTION CSS</a></li>
-                <li><a tabindex="-1" href="https://github.com/miryalguda/MAP-DIRECTION/blob/main/mapdirection2.html">MAP DIRECTION HTML</a></li>
-                <li><a tabindex="-1" href="https://github.com/miryalguda/MAP-DIRECTION/blob/main/mapdirection2.js">MAP DIRECTION JS</a></li>            
-            </ul>       
-        </li>
-
-        <li class="dropdown-submenu"><a class="test" tabindex="-1" href="#">MAP ANIMATION<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a tabindex="-1" href="https://github.com/miryalguda/REALTIME-BUS-TRACKER/blob/main/mapboxstyle.css">MAP ANIMATION CSS</a></li>
-            <li><a tabindex="-1" href="https://github.com/miryalguda/REALTIME-BUS-TRACKER/blob/main/mapboxstyle.html">MAP ANIMATION HTML</a></li>
-            <li><a tabindex="-1" href="https://github.com/miryalguda/REALTIME-BUS-TRACKER/blob/main/mapboxstyle.js">MAP ANIMATION JS</a></li>            
-          </ul>
-        </li>
-
-        <li class="dropdown-submenu"><a class="test" tabindex="-1" href="#">BOOTSTRAP<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a tabindex="-1" href="https://github.com/miryalguda/miryalguda.github.io/blob/main/portfolio1.html">BOOTSTRAP</a></li>
-             </ul>
-        </li>
-        
-        </ul>
-    </div>
-</div>
   
 <!-- multiple dropdown end -->
 </nav>
