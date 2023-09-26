@@ -94,7 +94,7 @@ MIT X-PRO FIRST WEBSITE
       </button>
       <ul class="dropdown-menu ">
 
-        <li class = "dropdown-submenu "><a class = "test" tabindex="-1" href="#">EYE EXERCISE<span class="caret"></span></a>
+        <li class = "dropdown-submenu "><a class = "test" tabindex="-1" href="https://github.com/miryalguda/EYE-EXERCISE">EYE EXERCISE<span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a tabindex="1" href="https://github.com/miryalguda/EYE-EXERCISE/blob/main/eye.css">Eye Exercise CSS</a></li>
                 <li><a tabindex="1" href="https://github.com/miryalguda/EYE-EXERCISE/blob/main/eye.html">Eye Exercise HTML</a></li>
